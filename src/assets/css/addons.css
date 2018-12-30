@@ -1,0 +1,17 @@
+.social-networks .icon-github:after {
+  content:"\f09b"
+}
+
+.social-networks .icon-github:focus:before,.social-networks .icon-github:hover:before {
+  background:#3b5998;
+  border:2px solid transparent
+}
+
+.social-networks .icon-medium:after {
+  content:"\f23a"
+}
+
+.social-networks .icon-medium:focus:before,.social-networks .icon-medium:hover:before {
+  background:#3b5998;
+  border:2px solid transparent
+}
