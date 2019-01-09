@@ -16,7 +16,7 @@ class PortfolioItem extends PureComponent {
             <hr />
             <p style={white}>{ this.props.text }</p>
             <div className="col-sm-6">
-              <a href={this.props.url} className="btn btn-orange"> Visit</a>
+              <a href={this.props.url} className="btn btn-orange" rel="nofollow"> Visit</a>
             </div>
             { this.props.url2 ? 
               <div className="row">

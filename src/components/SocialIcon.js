@@ -8,7 +8,7 @@ class SocialIcon extends PureComponent {
     const netName = network.charAt(0).toUpperCase() + network.slice(1)
 
     return (
-        <li><a href={this.props.url} className={networkClass}>{ netName }</a></li>
+        <li><a href={this.props.url} className={networkClass} rel="nofollow">{ netName }</a></li>
     )
   }
 }

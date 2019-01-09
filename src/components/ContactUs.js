@@ -109,9 +109,9 @@ class ContactUs extends PureComponent {
               <i className="fa fa-envelope fa-2x"></i>
               <h4 className="text-uppercase">Cell / Whatsapp</h4>
               <ul className="list-unstyled">
-                <li>+370 (614) 15694</li>
+                <li><a href="https://wa.me/447460271365" target="_blank" rel="nofollow noopener noreferrer">+44 74 6027-1365</a></li>
               </ul>
-            </div> 
+            </div>
           </div>
           <div className="col-sm-4 col-xs-6">
             <div className="block">
