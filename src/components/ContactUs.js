@@ -171,7 +171,7 @@ class ContactUs extends PureComponent {
         </div>
         { !this.state.sent ? form : errors }
         { this.state.error ? this.state.error : null }
-        <div className="row">
+        <div className="row text-center">
           <Social />
         </div>
     </section>
