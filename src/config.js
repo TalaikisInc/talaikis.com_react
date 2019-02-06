@@ -1,5 +1,5 @@
 const config = {
-  siteName: 'Talaikis Inc.',
+  siteName: 'Talaikis Ltd.',
   baseUrl: 'https://talaikis.com'
 }
 
