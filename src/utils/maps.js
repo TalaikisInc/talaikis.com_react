@@ -58,7 +58,7 @@ const projectsMap = [
   },
   {
     id: 5,
-    url: 'https://sales.identiform.com/',
+    url: 'https://sales.talaikis.com/',
     title: 'Token Sale Starter',
     description: 'Universal contract (Solidity) and decentralized app (React.js), enabled the possibility to deploy contracts without any programming. NOTE. Code is not available publicly.',
     image: tokenStarter,
@@ -75,7 +75,7 @@ const projectsMap = [
     type: 'blockchain',
     url2: 'https://medium.com/@dxenu/upload-images-to-ipfs-simply-51cf85a1d83b',
     title2: 'Medium',
-    url3: 'https://ipfs.identiform.com',
+    url3: 'https://ipfs.talaikis.com',
     title3: 'Visit'
   },
   {
@@ -87,7 +87,7 @@ const projectsMap = [
     type: 'blockchain',
     url2: 'https://medium.com/@dxenu/how-we-put-act-of-reinstating-independence-of-lithuania-on-ipfs-and-ethereum-blockchain-for-ever-d6fab0ffd6fb',
     title2: 'Medium',
-    url3: 'https://ipfs.identiform.com',
+    url3: 'https://act.talaikis.com',
     title3: 'Visit'
   },
   {
@@ -145,7 +145,7 @@ const projectsMap = [
     description: 'Dockerized React.js.',
     image: identiformWeb,
     type: 'web',
-    url2: 'https://identiform.com/',
+    url2: 'https://blockchain.talaikis.com/',
     title2: 'Website'
   },
   {

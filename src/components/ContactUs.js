@@ -4,7 +4,7 @@ import { post } from 'axios'
 import Async from 'components/Async'
 const Social = Async(() => import('components/Social'))
 
-const apiUrl = 'https://mail.identiform.com'
+const apiUrl = 'https://mail.talaikis.com'
 const apiKey = process.env.REACT_APP_API_KEY
 
 class ContactUs extends PureComponent {
@@ -127,7 +127,7 @@ class ContactUs extends PureComponent {
               <i className="fa fa-home fa-2x"></i>
               <h4 className="text-uppercase">Branches</h4>
               <ul className="list-unstyled">
-                <li><a href="https://identiform.com" title="Blockchain Development">Blockchain Development</a></li>
+                <li><a href="https://blockchain.talaikis.com" title="Blockchain Development">Blockchain Development</a></li>
                 <li><a href="https://blueblood.ltd" title="Web Development">Web Development</a></li>
               </ul>
             </div> 
