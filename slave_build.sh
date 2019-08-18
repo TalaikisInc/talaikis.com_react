@@ -1,6 +1,5 @@
-
 #!/bin/bash
 
-APP=$1
+APP=talaikis
 
-docker build -t "$APP" .
+docker build --no-cache -t "$APP" .

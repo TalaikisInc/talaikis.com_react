@@ -1,6 +1,6 @@
 #!/bin/bash
 
-APP=$1
-PORT=$2
+APP=talaikis
+PORT=3007
 
-docker run -it -p "$PORT:3000" --rm --name "$APP" -d "$APP"
+docker run -it -p "$PORT:3000" --restart always --name "$APP" -d "$APP"

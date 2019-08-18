@@ -12,11 +12,14 @@ import talaikis from 'assets/images/portfolio/talaikis.jpg'
 import identiformWeb from 'assets/images/portfolio/identiform.jpg'
 import bluebloodWeb from 'assets/images/portfolio/blueblood_web.png'
 import powerpiper from 'assets/images/portfolio/powerpiper.jpg'
+import ufunc from 'assets/images/portfolio/ufunc.jpg'
+import nakamoto from 'assets/images/portfolio/nakamoto.png'
+import cubednext from 'assets/images/portfolio/cubednext.png'
 
-const projectsMap = [
+export const projectsMap = [
   {
     id: 0,
-    url: 'https://github.com/provocome/provoco_contract',
+    url: 'https://github.com/TalaikisInc/provoco_contract',
     title: 'Provoco.me Contract',
     description: 'Multi-stage ICO contract for Provoco.me (Solidity, Truffle).',
     image: provoco,
@@ -24,7 +27,7 @@ const projectsMap = [
   },
   {
     id: 1,
-    url: 'https://github.com/Identiform/identiform',
+    url: 'https://github.com/TalaikisInc/identiform',
     title: 'Decentralized KYC/AML, ICO/ Trust Catalog MVP',
     description: 'REST-API (Node.js) for data encryption and storage on a private IPFS cluster, a contract and dApp (React.js).',
     image: identiform,
@@ -48,7 +51,7 @@ const projectsMap = [
   },
   {
     id: 4,
-    url: 'https://github.com/BlueBloodLtd/blueblood',
+    url: 'https://github.com/TalaikisInc/blueblood',
     title: 'Blue Blood Engine',
     description: 'Quantitative trading strategies index platform (Python, 200k code lines). NOTE. Full code is not available publicly.',
     image: blueblood,
@@ -68,7 +71,7 @@ const projectsMap = [
   },
   {
     id: 6,
-    url: 'https://github.com/powerpiper/ipfs-uploader',
+    url: 'https://github.com/TalaikisInc/ipfs-uploader',
     title: 'IPFS Image Uploader',
     description: 'User friendly image uploader of images to distributed Interplanetary File System (IPFS, React.js).',
     image: ipfs,
@@ -80,7 +83,7 @@ const projectsMap = [
   },
   {
     id: 7,
-    url: 'https://github.com/powerpiper/actofindependence',
+    url: 'https://github.com/TalaikisInc/actofindependence',
     title: 'Act of Independence on Blockchain',
     description: 'Act of Independence of Lithuania on Ethereum Blockchain (Solidity, IPFS, React.js).',
     image: act,
@@ -92,7 +95,7 @@ const projectsMap = [
   },
   {
     id: 8,
-    url: 'https://github.com/quant-trade/celebs',
+    url: 'https://github.com/TalaikisInc/celebs',
     title: 'Celebrities Daily',
     description: 'Automated, scrapped content website on 6,000+ celebrities (Python, Golang, Nuxt.js/ Vue, Postgres).',
     image: qprob,
@@ -100,7 +103,7 @@ const projectsMap = [
   },
   {
     id: 9,
-    url: 'https://github.com/xenu256/quotes',
+    url: 'https://github.com/TalaikisInc/quotes',
     title: 'Famous quotes',
     description: 'Project that delivers 2 million scrapped quotes (Nuxt.js, Postgres, Python, Golang).',
     image: qprob,
@@ -108,7 +111,7 @@ const projectsMap = [
   },
   {
     id: 10,
-    url: 'https://github.com/quant-trade/Quantrade',
+    url: 'https://github.com/TalaikisInc/Quantrade',
     title: 'Quantrade',
     description: 'Quantitative trading signals & 100s of profitable automated strategies portfolio for retail traders. (Python, Windows, Ubuntu, WebDAV, Pandas as DB, MySQL, Postgres, Redis, MongoDB, Django, InfluxDB, etc.)',
     image: quantrade,
@@ -124,7 +127,7 @@ const projectsMap = [
   },
   {
     id: 12,
-    url: 'https://github.com/quant-trade/QProb',
+    url: 'https://github.com/TalaikisInc/QProb',
     title: 'QProb Aggregator',
     description: 'Automated scrapped content summarization, sentiment gathering and automatic marketing platform, delivering websites with a few cicks (Golang API, Python CPU intensive tasks, Nutx.js frontend, Postgres).',
     image: qprob,
@@ -132,7 +135,7 @@ const projectsMap = [
   },
   {
     id: 13,
-    url: 'https://github.com/quant-trade/qprob_ion',
+    url: 'https://github.com/TalaikisInc/qprob_ion',
     title: 'Qprob Mobile',
     description: 'One click apps on Qprob aggregation API platform.',
     image: qprobMobile,
@@ -140,7 +143,7 @@ const projectsMap = [
   },
   {
     id: 14,
-    url: 'https://github.com/Identiform/website',
+    url: 'https://github.com/TalaikisInc/identiform-website',
     title: 'Identiform Blockchain Development Website',
     description: 'Dockerized React.js.',
     image: identiformWeb,
@@ -150,24 +153,58 @@ const projectsMap = [
   },
   {
     id: 15,
-    url: 'https://github.com/BlueBloodLtd/blueblood.ltd',
+    url: 'https://github.com/TalaikisInc/blueblood.ltd',
     title: 'BlueBlood Web Development Website',
     description: 'Dockerized React.js.',
     image: bluebloodWeb,
     type: 'web',
-    url2: 'https://blueblood.ltd/',
+    url2: 'https://blueblood.talaikis.com/',
     title2: 'Website'
   },
   {
     id: 16,
-    url: 'https://github.com/powerpiper/website',
+    url: 'https://github.com/TalaikisInc/powerpiper-website',
     title: 'PowerPiper Website',
     description: 'Next.js, Typesript, Node.js API.',
     image: powerpiper,
     type: 'web'
   },
+  {
+    id: 17,
+    url: 'https://ufunc.com',
+    title: 'Ufunc Shop',
+    description: 'Shop created using automation technlogy.',
+    image: ufunc,
+    url2: 'https://github.com/TalaikisInc/UFunc',
+    title2: 'GitHUB',
+    type: 'web'
+  },
+  {
+    id: 18,
+    url: 'https://nakamotowallet.org/',
+    title: 'Nakamoto Wallet',
+    description: 'Decentralized Mobile Ethereum Wallet.',
+    image: nakamoto,
+    url2: 'https://github.com/TalaikisInc/nakamoto',
+    title2: 'GitHub',
+    type: 'mobile'
+  },
+  {
+    id: 19,
+    url: 'https://cubed.talaikis.com',
+    title: 'Users Cubed Frontend',
+    description: 'User Management System / CMS (SSR Frontend).',
+    image: cubednext,
+    url2: 'https://github.com/TalaikisInc/users-cubed-next-frontend',
+    title2: 'GitHUB',
+    type: 'web'
+  },
+  {
+    id: 20,
+    url: 'https://github.com/TalaikisInc/users-cubed-s3',
+    title: 'Users Cubed S3 API',
+    description: 'User Management System / CMS API on Amazon AWS S3.',
+    image: cubednext,
+    type: 'microservices'
+  }
 ]
-
-export {
-  projectsMap
-}
