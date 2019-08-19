@@ -3,22 +3,25 @@
   "version": "0.2.0",
   "private": true,
   "dependencies": {
+    "acorn": "^7.0.0",
     "axios": "^0.19.0",
     "bootstrap": "^4.3.1",
     "bootstrap-scss": "^4.3.1",
     "classnames": "^2.2.6",
     "dotenv": "^8.1.0",
     "express": "^4.17.1",
+    "jquery": "^3.4.1",
     "lodash": "^4.17.15",
     "prop-types": "^15.7.2",
     "react": "^16.9.0",
     "react-adsense": "0.1.0",
     "react-dom": "^16.9.0",
+    "react-ga": "^2.6.0",
     "react-helmet": "^5.2.1",
     "react-loadable": "^5.5.0",
     "react-router": "^5.0.1",
     "react-scripts": "3.1.1",
-    "react-spinners": "^0.5.12",
+    "react-spinners": "^0.6.0",
     "reactstrap": "^8.0.1"
   },
   "scripts": {
@@ -40,7 +43,6 @@
     "@babel/preset-env": "^7.5.5",
     "@babel/preset-react": "^7.0.0",
     "@babel/register": "^7.5.5",
-    "bootstrap-sass": "^3.4.1",
     "eslint": "^6.1.0",
     "eslint-config-standard": "^13.0.1",
     "eslint-plugin-import": "^2.18.2",
@@ -51,6 +53,7 @@
     "ignore-styles": "^5.0.1",
     "node-sass": "^4.12.0",
     "purify-css": "^1.2.5",
-    "spinkit": "^1.2.5"
+    "spinkit": "^1.2.5",
+    "typescript": "^3.5.3"
   }
 }

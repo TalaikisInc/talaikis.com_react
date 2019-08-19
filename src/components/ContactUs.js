@@ -18,44 +18,31 @@ class ContactUs extends PureComponent {
       error: undefined,
       loading: false
     }
-    this.mounted = false
     this.handleSubmit = this.handleSubmit.bind(this)
     this.handleChange = this.handleChange.bind(this)
     this.handleChange = this.handleChange.bind(this)
   }
 
-  componentWillUnmount = () => {
-    this.mounted = false
-  }
+  handleChange = (event) => {
+    const { target, option } = event
+    const { value, name } = target
 
-  componentWillMount = () => {
-    this.mounted = true
+    ;(option) ? this.setState({
+      [name]: option.value ? option.value : ''
+    }) : this.setState({
+      [name]: value
+    })
   }
 
   handleChange = (event) => {
     const { target, option } = event
     const { value, name } = target
 
-    if (this.mounted) {
-      (option) ? this.setState({
-        [name]: option.value ? option.value : ''
-      }) : this.setState({
-        [name]: value
-      })
-    }
-  }
-
-  handleChange = (event) => {
-    const { target, option } = event
-    const { value, name } = target
-
-    if (this.mounted) {
-      (option) ? this.setState({
-        [name]: option.value ? option.value : ''
-      }) : this.setState({
-        [name]: value
-      })
-    }
+    ;(option) ? this.setState({
+      [name]: option.value ? option.value : ''
+    }) : this.setState({
+      [name]: value
+    })
   }
 
   handleSubmit = (e) => {
