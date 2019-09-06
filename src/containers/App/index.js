@@ -1,48 +1,16 @@
-import React, { PureComponent, Fragment } from 'react'
-import ReactGA from 'react-ga'
+import React, { PureComponent } from 'react'
+import { BrowserRouter, Route } from 'react-router-dom'
 
-import Async from 'components/Async'
-const Header = Async(() => import('components/Header'))
-const Portfolio = Async(() => import('components/Portfolio'))
-// const Testimonials = Async(() => import('components/Testimonials'))
-const About = Async(() => import('components/About'))
-const Whatwedo = Async(() => import('components/Whatwedo'))
-const ContactUs = Async(() => import('components/ContactUs'))
-const Hire = Async(() => import('components/Hire'))
+import Home from 'containers/Home'
+import PrivacyPolicy from 'containers/PrivacyPolicy'
 
 class App extends PureComponent {
-  initGA () {
-    ReactGA.initialize(process.env.GA_TRACKING_ID)
-    // console.log('Initialized')
-  }
-
-  logPageView () {
-    ReactGA.set({ page: window.location.pathname })
-    ReactGA.pageview(window.location.pathname)
-    // console.log(`Logged: ${window.location.pathname}`)
-  }
-
-  componentDidMount () {
-    if (process.emv.NODE_ENV === 'production') {
-      if (!window.GA_INITIALIZED) {
-        this.initGA()
-        window.GA_INITIALIZED = true
-      }
-      this.logPageView()
-    }
-  }
-
-  render() {
+  render () {
     return (
-      <Fragment>
-        <Header />
-        { /* <Testimonials /> */ }
-        <About />
-        <Portfolio />
-        <Whatwedo />
-        <Hire />
-        <ContactUs />
-      </Fragment>
+      <BrowserRouter>
+        <Route path="/" exact component={Home} />
+        <Route path="/privacy-policy" component={PrivacyPolicy} />
+      </BrowserRouter>
     )
   }
 }
