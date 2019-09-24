@@ -185,8 +185,8 @@ export const projectsMap = [
     title: 'Nakamoto Wallet',
     description: 'Decentralized Mobile Ethereum Wallet.',
     image: nakamoto,
-    url2: 'https://github.com/TalaikisInc/nakamoto',
-    title2: 'GitHub',
+    url2: 'https://play.google.com/store/apps/details?id=com.nakamoto.free',
+    title2: 'Play Store',
     type: 'mobile'
   },
   {
