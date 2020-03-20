@@ -4,7 +4,7 @@ import { post } from 'axios'
 import Async from 'components/Async'
 const Social = Async(() => import('components/Social'))
 
-const apiUrl = 'https://mail.talaikis.com'
+const apiUrl = process.env.REACT_APP_CONTACT_API
 const apiKey = process.env.REACT_APP_API_KEY
 
 class ContactUs extends PureComponent {
@@ -52,15 +52,15 @@ class ContactUs extends PureComponent {
     const msg = this.state.msg
     const email = this.state.email
     if (name.length >= 0 && msg.length >= 0 && email.indexOf('@')  > -1) {
-      post(`${apiUrl}/contactus`, {
+      post(`${apiUrl}/contact-us`, {
         method: 'POST',
         headers: {
           'Accept': 'application/json',
           'Content-Type': 'application/json',
         },
-        email: email,
-        msg: msg,
-        name: name,
+        email,
+        msg,
+        name,
         key: apiKey
       }).then((res) => {
         if (res.data.status === 'sent') {
@@ -112,10 +112,10 @@ class ContactUs extends PureComponent {
           <div className="col-sm-4 col-xs-6">
             <div className="block">
               <i className="fa fa-home fa-2x"></i>
-              <h4 className="text-uppercase">Branches</h4>
+              <h4 className="text-uppercase">Projects</h4>
               <ul className="list-unstyled">
                 <li><a href="https://blockchain.talaikis.com" title="Blockchain Development">Blockchain Development</a></li>
-                <li><a href="https://blueblood.ltd" title="Web Development">Web Development</a></li>
+                <li><a href="https://blueblood.talaikis.com" title="Trading Blog">Trading Blog</a></li>
               </ul>
             </div> 
           </div>

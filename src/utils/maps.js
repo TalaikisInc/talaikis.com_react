@@ -154,7 +154,7 @@ export const projectsMap = [
   {
     id: 15,
     url: 'https://github.com/TalaikisInc/blueblood.ltd',
-    title: 'BlueBlood Web Development Website',
+    title: 'BlueBlood Website',
     description: 'Dockerized React.js.',
     image: bluebloodWeb,
     type: 'web',
@@ -206,5 +206,13 @@ export const projectsMap = [
     description: 'User Management System / CMS API on Amazon AWS S3.',
     image: cubednext,
     type: 'microservices'
+  },
+  {
+    id: 21,
+    url: 'https://github.com/TalaikisInc/trading-blog',
+    title: 'Trading blog',
+    description: 'Blog with SSG in the cloud.',
+    image: blueblood,
+    type: 'website'
   }
 ]

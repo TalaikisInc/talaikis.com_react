@@ -1,0 +1,8 @@
+{
+    "alias": ["talaikis.com", "www.talaikis.com"],
+    "env": {
+        "REACT_APP_CONTACT_API": "@contact-api",
+        "REACT_APP_API_KEY": "@api-key",
+        "GA_TRACKING_ID": "@ga-tracking"
+      }
+}
