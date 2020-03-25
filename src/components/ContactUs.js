@@ -4,8 +4,8 @@ import { post } from 'axios'
 import Async from 'components/Async'
 const Social = Async(() => import('components/Social'))
 
-const apiUrl = process.env.REACT_APP_CONTACT_API
-const apiKey = process.env.REACT_APP_API_KEY
+const apiUrl = process.env.CONTACT_API
+const apiKey = process.env.API_KEY
 
 class ContactUs extends PureComponent {
   constructor(props) {
