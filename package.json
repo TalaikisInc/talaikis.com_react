@@ -56,6 +56,7 @@
     "node-sass": "^4.13.1",
     "npm-check-updates": "^4.0.6",
     "purify-css": "^1.2.5",
+    "sass": "^1.26.3",
     "spinkit": "^2.0.1",
     "typescript": "^3.8.3"
   }

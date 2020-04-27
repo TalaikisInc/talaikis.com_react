@@ -24,10 +24,10 @@ class About extends PureComponent {
                 <div className="block">
                   <h4>Full stack developer</h4>
                   <ul className="icon-list">
-                    <li><i className="fa fa-building"></i> Blueblood Ltd.</li>
+                    <li><i className="fa fa-building"></i> Talaikis Ltd.</li>
                     <li><i className="fa fa-clock-o"></i> 2017-Present</li>
                   </ul>
-                </div> 
+                </div>
                 <div className="block">
                   <h4> Full stack developer</h4>
                   <ul className="icon-list">

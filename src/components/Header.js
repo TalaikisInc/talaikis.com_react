@@ -25,6 +25,7 @@ class Header extends PureComponent {
               {/* <li role="presentation"><a href="#reviews">Reviews</a></li> */}
               <li role="presentation"><a href="https://talaikis.com/#expertness">Services</a></li>
               <li role="presentation"><a href="#contact_me">Contact</a></li>
+              <li role="presentation"><a href="https://blueblood.talaikis.com">Blog</a></li>
             </ul>
             <img src={profile} className="margin-top-76 img-circle center-block profile_picture" alt="Profile" />
             <h1 className="text-capitalize text-center">Tadas Talaikis</h1>
@@ -35,8 +36,8 @@ class Header extends PureComponent {
                 <SocialIcon network="linkedin" url="https://www.linkedin.com/in/xenu255/" />
                 <SocialIcon network="github" url="https://github.com/TalaikisInc" />
                 <SocialIcon network="medium" url="https://medium.com/@dxenu" />
-                <SocialIcon network="facebook" url="https://www.facebook.com/Talaikis-2614172078606938/" />
-                <SocialIcon network="twitter" url="https://twitter.com/Talaikis" />
+                <SocialIcon network="facebook" url="https://www.facebook.com/talaikis" />
+                { /* <SocialIcon network="twitter" url="https://twitter.com/Talaikis" /> */ }
               </ul>
             </div>
           </div>

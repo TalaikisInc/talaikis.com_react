@@ -4,8 +4,13 @@ import { post } from 'axios'
 import Async from 'components/Async'
 const Social = Async(() => import('components/Social'))
 
+/*
 const apiUrl = process.env.CONTACT_API
 const apiKey = process.env.API_KEY
+*/
+
+const apiUrl = 'https://0h4dm430t3.execute-api.us-east-1.amazonaws.com/prod'
+const apiKey = 'UCbJjypqjJFoCc9gK038HOp51NFCfTJ4ZJFxvVifuIY='
 
 class ContactUs extends PureComponent {
   constructor(props) {
